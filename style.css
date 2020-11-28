@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+      padding: 0;
+     
+    }
+    
+@font-face {
+    font-family: Brandon Grotesque;
+    src: url('BGREG.otf'); 
+    }
+    .stars
+    {
+        text-align: center;
+    }
+.content
+    {
+        
+        width:100%;
+        height:100%;
+        float:left;
+       align-items:left;
+       
+    }
+    .content img
+    {
+        margin-top:0px;
+    }
+    h1
+    {
+        margin-top:10%;
+    }
+.col-sm-6,h2,h1,h3,h4{
+    color:white;
+
+}
+h5{
+    margin-top:8%;
+    color:white;
+    
+}
+input{
+    width:100%;
+    height:100%;
+    border-radius:20px;
+}
+p{
+    color:purple;
+}
+button{
+    height:16%;
+    width:60%;
+    margin-left:7%;
+    margin-right:7%;
+    border-radius:20px;
+    background-color: #46C2FF;
+    color:white;
+}
+body{
+    
+
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   padding-left:8%;
+   padding-right:8%;
+   
+  }
+  .review
+  {
+      width:100%;
+      height:200px;
+  }
+  * {box-sizing: border-box;}
+  button{
+      background-color: #46C2FF;
+      height:100%;
+  }
+  .empty
+  {
+      height:100px;
+  }
+  @media only screen and (max-width: 600px) {
+    .button
+    {
+        
+        width:100%;
+        height:100%;
+       align-items:center;
+       
+    }
+    .content,h1
+    { 
+        float:none;
+       align-items:left;
+       text-align: center;
+       justify-content: center;
+    }
+  }
+ 
+ 
