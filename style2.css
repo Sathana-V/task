@@ -61,7 +61,11 @@ p{
     background-color: #46C2FF;
     color:white;
 }
-
+#ic
+{
+    float:left;
+    color:white;
+}
 @media only screen and (max-width: 600px) {
     .button
     {
