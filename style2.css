@@ -4,19 +4,34 @@
       box-sizing: border-box;
      
     }
+    @font-face {
+        font-family:"Brandon Grotesque";
+        src: url('BGREG.otf'); 
+        }
+        
+        @font-face {
+        font-family:"Brandon Grotesque";
+        font-weight: bold; 
+        src: url('BGBOLD.otf');
+        }
+        
+        body{
+        font-family:"Brandon Grotesque";
+        }
+        
+        .something-bold{
+        font-weight: bold;
+        }
     input{
         width:100%;
         height:40px;
        
         border-radius:20px;
     }
+  
    a:hover{
        font-size: large;
    }
-@font-face {
-    font-family: Brandon Grotesque;
-    src: url('BGREG.otf'); 
-    }
     .stars
     {
         text-align: center;
