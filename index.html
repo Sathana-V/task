@@ -109,13 +109,14 @@
                
                 <div class="col-sm-12">
                      <h1>Showcase</h1>
-                        <div class="swiper-container slider2" style="  width: 100%;
+                        <div class="swiper-container slider2" style="  width: 78%;
                             height: 600px; margin-top:10%; background:#21212E">
                                 <div class="swiper-wrapper" style=" text-align: center;
                                 font-size: 18px;
                                 display: -webkit-box;
                                 display: -ms-flexbox;
                                 display: -webkit-flex;
+                              
                                 display: flex;
                                 -webkit-box-pack: center;
                                 -ms-flex-pack: center;
@@ -126,10 +127,19 @@
                                 -webkit-align-items: center;
                                 align-items: center;">
                                 <div class="swiper-slide"><img src="Screen-6.png" alt="img" style="height:100%;"></div>
+                                <div class="swiper-slide" ><img src="Screen-3.png" alt="img" style="height:100%;"></div>
+                                <div class="swiper-slide" ><img src="Screen-7.png" alt="img" style="height:100%;"></div>
+                                <div class="swiper-slide"><img src="Screen-4.png" alt="img"style="height:100%;"></div>
+                                <div class="swiper-slide" ><img src="Screen-6.png" alt="img" style="height:100%;"></div>
+                                <div class="swiper-slide" ><img src="Screen-3.png" alt="img" style="height:100%;"></div>
+                                <div class="swiper-slide"><img src="Screen-7.png" alt="img" style="height:100%;"></div>
+                                <div class="swiper-slide" ><img src="Screen-4.png" alt="img"style="height:100%;"></div>
+                                <div class="swiper-slide" ><img src="Screen-6.png" alt="img" style="height:100%;"></div>
                                 <div class="swiper-slide"><img src="Screen-3.png" alt="img" style="height:100%;"></div>
                                 <div class="swiper-slide"><img src="Screen-7.png" alt="img" style="height:100%;"></div>
                                 <div class="swiper-slide"><img src="Screen-4.png" alt="img"style="height:100%;"></div>
-                                </div>
+                                
+                      </div>
                         
                                 <div class="swiper-button-next"></div>
                             
@@ -290,21 +300,23 @@
   var prependNumber = 1;
   var swiper = new Swiper('.slider2', {
     slidesPerView: 3,
-      spaceBetween: 30,
-     
+      spaceBetween: 0,
+      loop: true,
+      freeMode: true,
+      loopedSlides: 5,
     effect: 'coverflow',
     centeredSlides: true,
     
     loop: true,
-      loopFillGroupWithBlank: true,
+    
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
     },
     coverflowEffect: {
-      rotate: 10,
-            stretch:-70,
-            depth: 30,
+    
+            stretch:-80,
+           rotate:7,
             modifier: 1,
             slideShadows: true,
           },
